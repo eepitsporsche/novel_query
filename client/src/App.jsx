@@ -1,7 +1,6 @@
-import './App.css';
+import './index.css';
 import React from 'react';
-// import { Outlet } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
@@ -39,11 +38,11 @@ function App() {
       <Router>
         <>
         <Navbar />
-        <Switch>
+        <Routes>
           <Route exact path='/' component={SearchBooks} />
           <Route exact path='/saved' component={SavedBooks} />
           <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
-        </Switch>
+        </Routes>
         </>
       </Router>
     </ApolloProvider>
