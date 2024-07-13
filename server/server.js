@@ -8,6 +8,8 @@ const { authMiddleware } = require('./utils/auth');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+app.use(express.static(path.resolve('build')));
+app.use(express.static(path.resolve('public')));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
