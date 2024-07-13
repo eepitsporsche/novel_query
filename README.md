@@ -41,7 +41,7 @@ The list of books saved can be accessed by clicking the 'Saved Books' link at th
 * [unblockMe](https://www.youtube.com/watch?v=b8xUnZu4etU) YouTube Channel
 * UCB Bootcamp Instructor: [Robbert Wijtman](https://github.com/Bucky24)
 * Online Support: W3Schools, Youtube, Stack Overflow
-* UCB Bootcamp provided front-end CSS, and base JavaScript functionality for this project
+* UCB Bootcamp provided front-end CSS and base JavaScript functionality for this project
 
 ## Technologies Used
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
