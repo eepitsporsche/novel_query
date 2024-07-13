@@ -31,7 +31,7 @@ Access the app on [Render](https://novel-query.onrender.com/).
 ## Usage
 On the [Novel Query](https://novel-query.onrender.com/) webpage, users may search and save book titles. Once a user account is created and logged-in, a user may save books to their unique account by clicking the 'Save this Book!' button found below the description of the book.
 
-The list of books saved can be accessed by clicking the 'Saved Books' link at the upper right of the page. Once on the 'Saved Books' page, a user may remove titles from the list by clicking the 'Delete Book' button found below the description of the book.
+The list of books saved can be accessed by clicking the 'Saved Books' link at the upper right of the page. Once on the 'Saved Books' page, a user may remove titles from the list by clicking the 'Delete this Book' button found below the description of the book.
 
 <p align="center"><img src="client/public/images/novel_query_demo.gif" alt="Novel Query Homepage"></p>
 
